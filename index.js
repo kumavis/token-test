@@ -1,6 +1,6 @@
 const solc = require('solc')
 const Web3 = require('web3')
-const TestProvider = require('ethereumjs-testrpc').provider
+const TestProvider = require('./provider.js')
 const fs = require('fs')
 const tokenSource = fs.readFileSync('./token.sol', 'utf8')
 const standardSource = fs.readFileSync('./standard.sol', 'utf8')
@@ -8,6 +8,7 @@ const standardSource = fs.readFileSync('./standard.sol', 'utf8')
 var engine = TestProvider()
 var web3 = new Web3(engine)
 
+console.log('compiling solidity...')
 var compiled = compile({
   sources: {
     'Token': tokenSource,
