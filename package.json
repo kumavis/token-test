@@ -1,0 +1,16 @@
+{
+  "name": "token-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-testrpc": "git+https://github.com/ethereumjs/testrpc.git#fb5588a40bcc3287c179dec332e879d437ea1ea5",
+    "solc": "^0.2.1-1",
+    "web3": "^0.15.1"
+  }
+}
