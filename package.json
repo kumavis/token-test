@@ -11,9 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "ethereumjs-testrpc": "git+https://github.com/ethereumjs/testrpc.git#fb5588a40bcc3287c179dec332e879d437ea1ea5",
-    "ethereumjs-util": "^4.0.0",
-    "solc": "^0.2.1-1",
-    "web3": "^0.15.1",
-    "web3-provider-engine": "^5.1.0"
+    "ethereumjs-util": "^5.1.2",
+    "solc": "^0.4.16",
+    "web3": "^0.20.1",
+    "web3-provider-engine": "^13.2.9"
   }
 }
